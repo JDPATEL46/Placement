@@ -21,7 +21,7 @@ public partial class dir1_Admin_Default : System.Web.UI.Page
     /// <param name="e"></param>
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!Page.IsPostBack)
+        /*if (!Page.IsPostBack)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\PlacementMGT\placement_management.mdf;Integrated Security=True;Connect Timeout=300");
             con.Open();
@@ -43,7 +43,7 @@ public partial class dir1_Admin_Default : System.Web.UI.Page
             daa.Fill(dtb);
             ddlcity.DataSource = dtb;
             ddlcity.DataBind();
-        }
+        }*/
 
         try
         {
