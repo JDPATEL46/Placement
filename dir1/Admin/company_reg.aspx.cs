@@ -11,7 +11,6 @@ using System.Configuration;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
-//hello
 
 public partial class dir1_TPO_Default : System.Web.UI.Page
 {

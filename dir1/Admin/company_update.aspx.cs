@@ -14,11 +14,7 @@ using System.Text;
 
 public partial class dir1_Admin_Default : System.Web.UI.Page
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="sender"></param>
-    /// <param name="e"></param>
+  
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!Page.IsPostBack)
