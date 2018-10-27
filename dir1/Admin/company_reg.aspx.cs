@@ -16,7 +16,7 @@ public partial class dir1_TPO_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        /*if (Request.QueryString["com_id"] != null)
+        if (Request.QueryString["com_id"] != null)
         {
             if (Request.QueryString["dflag"] != null && Request.QueryString["com_id"] != null)
             {
@@ -32,7 +32,7 @@ public partial class dir1_TPO_Default : System.Web.UI.Page
                     con.Close();
                 }
             }
-        }*/
+        }
         if (!Page.IsPostBack)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\PlacementMGT\placement_management.mdf;Integrated Security=True;Connect Timeout=30");

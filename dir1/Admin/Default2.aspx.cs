@@ -10,6 +10,6 @@ public partial class dir1_Admin_Default2 : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
-        Response.Write("Hello");
+        Response.Write("Hello get lost");
     }
 }
